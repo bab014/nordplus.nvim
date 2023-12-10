@@ -332,7 +332,7 @@ theme.loadTreeSitter = function()
 	-- Conditionals
 	treesitter.TSConditional = { fg = nord.nord9_gui, style = italic } -- For keywords related to conditionnals.
 	-- Function names
-	treesitter.TSFunction = { fg = nord.nord8_gui, style = italic } -- For fuction (calls and definitions).
+	treesitter.TSFunction = { fg = nord.nord10_gui, style = italic } -- For fuction (calls and definitions).
 	treesitter.TSMethod = { fg = nord.nord7_gui, style = italic } -- For method calls and definitions.
 	treesitter.TSFuncBuiltin = { fg = nord.nord8_gui, style = italic }
 	-- Namespaces and property accessors
