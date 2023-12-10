@@ -348,7 +348,7 @@ theme.loadTreeSitter = function()
 	-- Strings
 	treesitter.TSString = { fg = nord.nord14_gui, style = italic } -- For strings.
 	treesitter.TSStringRegex = { fg = nord.nord7_gui, style = italic } -- For regexes.
-	treesitter.TSStringEscape = { fg = nord.nord15_gui, style = italic } -- For escape characters within a string.
+	treesitter.TSStringEscape = { fg = nord.nord8_gui, style = italic } -- For escape characters within a string.
 	treesitter.TSCharacter = { fg = nord.nord14_gui, style = italic } -- For characters.
 
 	treesitter["@comment"] = { fg = nord.nord3_gui_bright, style = italic }
@@ -359,8 +359,8 @@ theme.loadTreeSitter = function()
 	treesitter["@namespace"] = { fg = nord.nord4_gui, style = italic }
 	treesitter["@field"] = { fg = nord.nord4_gui, style = italic }
 	treesitter["@property"] = { fg = nord.nord10_gui, style = italic }
-	treesitter["@keyword"] = { fg = nord.nord9_gui, style = italic }
-	treesitter["@keyword.function"] = { fg = nord.nord8_gui, style = italic }
+	treesitter["@keyword"] = { fg = nord.nord15_gui, style = italic }
+	treesitter["@keyword.function"] = { fg = nord.nord15_gui, style = italic }
 	treesitter["@keyword.return"] = { fg = nord.nord8_gui, style = italic }
 	treesitter["@keyword.operator"] = { fg = nord.nord8_gui, style = italic }
 	treesitter["@repeat"] = { fg = nord.nord9_gui, style = italic }
