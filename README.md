@@ -1,5 +1,4 @@
-
-# shaunsingh/nord.nvim
+# bab014/nord.nvim
 
 ## Neovim theme based off of the [Nord Color Palette.](https://www.nordtheme.com/docs/colors-and-palettes)
 
@@ -10,37 +9,38 @@
 Nord.nvim is meant to be a modern colorscheme written in lua for NeoVim that supports a lot of the new features
 added to NeoVim like built-in LSP and [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
-+ Supported plugins:
-  + [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
-  + [LSP Diagnostics](https://neovim.io/doc/user/lsp.html)
-  + [Lsp Saga](https://github.com/glepnir/lspsaga.nvim)
-  + [LSP Trouble](https://github.com/folke/lsp-trouble.nvim)
-  + [Git Gutter](https://github.com/airblade/vim-gitgutter)
-  + [git-messenger](https://github.com/rhysd/git-messenger.vim)
-  + [Git Signs](https://github.com/lewis6991/gitsigns.nvim)
-  + [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
-  + [Nvim-Tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
-  + [NERDTree](https://github.com/preservim/nerdtree)
-  + [vim-which-key](https://github.com/liuchengxu/vim-which-key)
-  + [Indent-Blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
-  + [Dashboard](https://github.com/glepnir/dashboard-nvim)
-  + [BufferLine](https://github.com/akinsho/nvim-bufferline.lua)
-  + [Lualine](https://github.com/hoob3rt/lualine.nvim)
-  + [Neogit](https://github.com/TimUntersberger/neogit)
-  + [vim-sneak](https://github.com/justinmk/vim-sneak)
-  + [lightspeed.nvim](https://github.com/ggandor/lightspeed.nvim)
-  + [barbar.nvim](https://github.com/romgrk/barbar.nvim)
-  + [nvim-notify](https://github.com/rcarriga/nvim-notify)
-  + [leap.nvim](https://github.com/ggandor/leap.nvim)
-  + [mini.nvim](https://github.com/echasnovski/mini.nvim)
-  + [aerial.nvim](https://github.com/stevearc/aerial.nvim)
-  + [headlines.nvim](https://github.com/lukas-reineke/headlines.nvim)
+- Supported plugins:
 
-+ Ability to change background on sidebar-like windows like Nvim-Tree, Packer, terminal etc.
+  - [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
+  - [LSP Diagnostics](https://neovim.io/doc/user/lsp.html)
+  - [Lsp Saga](https://github.com/glepnir/lspsaga.nvim)
+  - [LSP Trouble](https://github.com/folke/lsp-trouble.nvim)
+  - [Git Gutter](https://github.com/airblade/vim-gitgutter)
+  - [git-messenger](https://github.com/rhysd/git-messenger.vim)
+  - [Git Signs](https://github.com/lewis6991/gitsigns.nvim)
+  - [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+  - [Nvim-Tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
+  - [NERDTree](https://github.com/preservim/nerdtree)
+  - [vim-which-key](https://github.com/liuchengxu/vim-which-key)
+  - [Indent-Blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+  - [Dashboard](https://github.com/glepnir/dashboard-nvim)
+  - [BufferLine](https://github.com/akinsho/nvim-bufferline.lua)
+  - [Lualine](https://github.com/hoob3rt/lualine.nvim)
+  - [Neogit](https://github.com/TimUntersberger/neogit)
+  - [vim-sneak](https://github.com/justinmk/vim-sneak)
+  - [lightspeed.nvim](https://github.com/ggandor/lightspeed.nvim)
+  - [barbar.nvim](https://github.com/romgrk/barbar.nvim)
+  - [nvim-notify](https://github.com/rcarriga/nvim-notify)
+  - [leap.nvim](https://github.com/ggandor/leap.nvim)
+  - [mini.nvim](https://github.com/echasnovski/mini.nvim)
+  - [aerial.nvim](https://github.com/stevearc/aerial.nvim)
+  - [headlines.nvim](https://github.com/lukas-reineke/headlines.nvim)
+
+- Ability to change background on sidebar-like windows like Nvim-Tree, Packer, terminal etc.
 
 ## ⚡️ Requirements
 
-+ Neovim >= 0.5.0
+- Neovim >= 0.5.0
 
 ## 🌙 Installation
 
@@ -84,16 +84,16 @@ require('lualine').setup {
 
 ## ⚙️ Configuration
 
-| Option                              | Default     | Description                                                                                                                                                     |
-| ----------------------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| nord_contrast                   | `false`      | Make sidebars and popup menus like nvim-tree and telescope have a different background                                                                                       |
-| nord_borders                    | `false`     | Enable the border between verticaly split windows visable
-| nord_disable_background         | `false`     | Disable the setting of background color so that NeoVim can use your terminal background
-| nord_cursorline_transparent     | `false`     | Set the cursorline transparent/visible
-| nord_enable_sidebar_background  | `false`     | Re-enables the background of the sidebar if you disabled the background of everything
-| nord_italic                     | `true`      | enables/disables italics
-| nord_uniform_diff_background    | `false`     | enables/disables colorful backgrounds when used in *diff* mode
-| nord_bold                       | `true`      | enables/disables bold
+| Option                         | Default | Description                                                                             |
+| ------------------------------ | ------- | --------------------------------------------------------------------------------------- |
+| nord_contrast                  | `false` | Make sidebars and popup menus like nvim-tree and telescope have a different background  |
+| nord_borders                   | `false` | Enable the border between verticaly split windows visable                               |
+| nord_disable_background        | `false` | Disable the setting of background color so that NeoVim can use your terminal background |
+| nord_cursorline_transparent    | `false` | Set the cursorline transparent/visible                                                  |
+| nord_enable_sidebar_background | `false` | Re-enables the background of the sidebar if you disabled the background of everything   |
+| nord_italic                    | `true`  | enables/disables italics                                                                |
+| nord_uniform_diff_background   | `false` | enables/disables colorful backgrounds when used in _diff_ mode                          |
+| nord_bold                      | `true`  | enables/disables bold                                                                   |
 
 ```lua
 -- Example config in lua
@@ -187,7 +187,6 @@ require("bufferline").setup({
 })
 
 ```
-
 
 <img width="866" alt="image" src="https://user-images.githubusercontent.com/61075605/189151983-0cbf1f13-e62b-4b01-b6ce-a1c00a5f8ef3.png">
 
