@@ -272,8 +272,8 @@ theme.loadTreeSitter = function()
 		TSAnnotation = { fg = nord.nord11_gui }, -- For C++/Dart attributes, annotations that can be attached to the code to denote some kind of meta information.
 		["@constructor"] = { fg = nord.nord9_gui },
 		["@constant"] = { fg = nord.nord13_gui },
-		["@float"] = { fg = nord.nord15_gui },
-		["@number"] = { fg = nord.nord15_gui },
+		["@float"] = { fg = nord.nord12_gui },
+		["@number"] = { fg = nord.nord12_gui },
 		["@attribute"] = { fg = nord.nord15_gui },
 		["@error"] = { fg = nord.nord11_gui },
 		["@exception"] = { fg = nord.nord15_gui },
@@ -353,7 +353,7 @@ theme.loadTreeSitter = function()
 
 	treesitter["@comment"] = { fg = nord.nord3_gui_bright, style = italic }
 	treesitter["@conditional"] = { fg = nord.nord9_gui, style = italic }
-	treesitter["@function"] = { fg = nord.nord8_gui, style = italic }
+	treesitter["@function"] = { fg = nord.nord10_gui, style = italic }
 	treesitter["@method"] = { fg = nord.nord8_gui, style = italic }
 	treesitter["@function.builtin"] = { fg = nord.nord8_gui, style = italic }
 	treesitter["@namespace"] = { fg = nord.nord4_gui, style = italic }
