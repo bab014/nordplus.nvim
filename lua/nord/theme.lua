@@ -280,7 +280,7 @@ theme.loadTreeSitter = function()
 		["@funtion.macro"] = { fg = nord.nord7_gui },
 		["@include"] = { fg = nord.nord9_gui },
 		["@label"] = { fg = nord.nord15_gui },
-		["@operator"] = { fg = nord.nord9_gui },
+		["@operator"] = { fg = nord.nord8_gui },
 		["@parameter"] = { fg = nord.nord10_gui },
 		["@punctuation.delimiter"] = { fg = nord.nord8_gui },
 		["@punctuation.bracket"] = { fg = nord.nord8_gui },
